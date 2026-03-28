@@ -59,14 +59,18 @@ An IoT-based smart room automation system using ESP32 and Arduino for intelligen
 
 ## Repository Structure
 
-arduino_controller/
-└── arduino_controller.ino
-
-esp32_controller/
-└── esp32_controller.ino
-
-
----
+```
+smart-room-automation/
+│
+├── arduino_controller/
+│   └── arduino_controller.ino
+│
+├── esp32_controller/
+│   └── esp32_controller.ino
+│
+├── README.md
+└── LICENSE
+```
 
 ## Working Principle
 

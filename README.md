@@ -1,4 +1,4 @@
-# Smart Room Automation System
+# IoT-Based Energy Conservation System
 
 An IoT-based smart room automation system using ESP32 and Arduino for intelligent control of appliances, lighting, and environmental conditions. The system integrates RFID-based access control, automatic lighting using LDR, and cloud monitoring via ThingSpeak.
 

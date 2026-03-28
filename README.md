@@ -58,3 +58,42 @@ An IoT-based smart room automation system using ESP32 and Arduino for intelligen
 ---
 
 ## Repository Structure
+
+arduino_controller/
+└── arduino_controller.ino
+
+esp32_controller/
+└── esp32_controller.ino
+
+
+---
+
+## Working Principle
+
+1. RFID card is scanned using MFRC522 module.
+2. If authorized, the room state toggles (ON/OFF).
+3. LDR detects ambient light:
+   - Bright → Day mode
+   - Dark → Night mode
+4. ESP32 sends commands to Arduino via serial communication.
+5. Arduino controls:
+   - Curtain movement
+   - LCD display updates
+   - Appliance indicators
+6. Data is uploaded to ThingSpeak every 15 seconds.
+
+---
+
+## Future Improvements
+
+- MQTT-based communication
+- Mobile application integration
+- Voice assistant support
+- Integration with ROS2 for robotic systems
+- Advanced energy monitoring
+
+---
+
+## License
+
+This project is licensed under the MIT License.
